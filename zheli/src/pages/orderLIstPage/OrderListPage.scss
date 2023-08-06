@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-bar {
+    width: 100vw;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 100;
+    background-color: #e51d34;
+    padding: 21px 0;
+    border-top-right-radius:  10px;
+    border-top-left-radius:  10px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+.ant-btn{
+    margin:0 18px 5px 0;
+    line-height: 30px !important;
+    height: 30px !important;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    padding: 10px 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+}
+.activity-button{
+    background-color: #e31d34 !important;
+    border-color: #e31d34 !important;
+}
+.disable-button{
+    background-color: #8e8e8e !important;
+    border-color: #8e8e8e !important;
+    color: #ffffff;
+}
+.ant-rate{
+    margin-bottom :10px;
+    .ant-rate-star {
+        color: #e41c3a;
+    }
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 130px;
+    padding: 14px 18px 16px ;
+    .orderLeft{
+        display: flex;
+        //margin: 5px;
+        .orderImg{
+            margin: 0 18px 0 0;
+            width: 138px;
+            height: 120px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .orderDetail{
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            font-weight: bolder;
+            & h2{
+                font-size: 25px;
+            }
+            & p{
+                color: #878787;
+                font-size: 19px;
+
+            }
+            .price{
+                padding-left: 10px;
+            }
+        }
+    }
+    .orderRight{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100px;
+        height: 100%;
+
+
+    }
+
+
+
+}
+
+.appraise{
+    margin-left: 10px;
+    width: 99%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    & textarea{
+        border-radius: 5px;
+        width: 100%;
+        margin:5px 0;
+        font-size: 16px;
+        outline-color:#e3bb85;
+
+    }
+    .disable-textarea{
+        cursor: not-allowed;
+    }
+    .buttons{
+        display: flex;
+
+    }
+}
